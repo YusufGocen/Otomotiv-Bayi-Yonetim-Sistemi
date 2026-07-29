@@ -2,17 +2,17 @@
 
 Bir otomotiv bayisinde araç, bayi, müşteri, satış, hesap ve adres işlemlerinin tek bir sistem üzerinden yönetebilen katmanlı mimariye sahip bir Spring Boot Projesidir.
 
-# Özellikler
-🏢 Bayi kayıtları yönetilebilir.
-🔗 Bayilere araç tanımlanabilir.
-👤 Müşteri kayıtları oluşturulabilir.
-🚘 Araç satış işlemleri gerçekleştirilebilir.
-🏠 Hesap ve adres bilgileri yönetilebilir.
-🔐 Kullanıcı doğrulama işlemleri güvenli şekilde gerçekleştirilebilir.
-💱 Döviz kuru entegrasyonu:
+## Özellikler
+- 🏢 Bayi kayıtları yönetilebilir.
+- 🔗 Bayilere araç tanımlanabilir.
+- 👤 Müşteri kayıtları oluşturulabilir.
+- 🚘 Araç satış işlemleri gerçekleştirilebilir.
+- 🏠 Hesap ve adres bilgileri yönetilebilir.
+- 🔐 Kullanıcı doğrulama işlemleri güvenli şekilde gerçekleştirilebilir.
+- 💱 Döviz kuru entegrasyonu:
 
 
-# Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 - Java 
 - Spring Boot 
 - Spring Data JPA / Hibernate
@@ -24,26 +24,24 @@ Bir otomotiv bayisinde araç, bayi, müşteri, satış, hesap ve adres işlemler
 - Swagger
 
 
-# Proje Mimarisi
+## Proje Mimarisi
 
-src
- ├── config
- ├── controller
- ├── dto
- ├── entity
- ├── enums
- ├── exception
- ├── handler
- ├── jwt
- ├── repository
- ├── service
- ├── starter
- └── util     
+- controller/       
+- service/          
+- repository/        
+- model/             
+- dto/               
+- enums/             
+- exception/        
+- handler/           
+- jwt/               
+- config/           
+- starter/     
  
 
-# Veritabanı Yapısı
+## Veritabanı Yapısı
 
-Projede Tablolar .
+Projedeki Tablolar
 
 - User
 - RefreshToken
@@ -55,7 +53,7 @@ Projede Tablolar .
 - Account
 - Address
 
-# Kimlik Doğrulama
+## Kimlik Doğrulama
 
 Projede Spring Security ve JWT Authentication kullanılmaktadır.
 
