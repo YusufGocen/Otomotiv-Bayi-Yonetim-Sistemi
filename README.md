@@ -1,6 +1,6 @@
 # Otomotiv Bayi Yönetim Sistemi :
 
-- Bir otomotiv bayisinde araç, bayi, müşteri, satış, hesap ve adres işlemlerinin tek bir sistem üzerinden yönetebilen katmanlı mimariye sahip bir Spring Boot Projesidir.
+Bir otomotiv bayisinde araç, bayi, müşteri, satış, hesap ve adres işlemlerinin tek bir sistem üzerinden yönetebilen katmanlı mimariye sahip bir Spring Boot Projesidir.
 
 # Özellikler
 🏢 Bayi kayıtları yönetilebilir.
