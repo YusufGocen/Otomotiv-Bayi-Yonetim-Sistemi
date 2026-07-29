@@ -1,0 +1,68 @@
+# Otomotiv Bayi Yönetim Sistemi :
+
+- Bir otomotiv bayisinde araç, bayi, müşteri, satış, hesap ve adres işlemlerinin tek bir sistem üzerinden yönetebilen katmanlı mimariye sahip bir Spring Boot Projesidir.
+
+# Özellikler
+🏢 Bayi kayıtları yönetilebilir.
+🔗 Bayilere araç tanımlanabilir.
+👤 Müşteri kayıtları oluşturulabilir.
+🚘 Araç satış işlemleri gerçekleştirilebilir.
+🏠 Hesap ve adres bilgileri yönetilebilir.
+🔐 Kullanıcı doğrulama işlemleri güvenli şekilde gerçekleştirilebilir.
+💱 Döviz kuru entegrasyonu:
+
+
+# Kullanılan Teknolojiler
+- Java 
+- Spring Boot 
+- Spring Data JPA / Hibernate
+- Spring Security
+- PostgreSQL
+- JWT 
+- Lombok
+- Maven
+- Swagger
+
+
+# Proje Mimarisi
+
+src
+ ├── config
+ ├── controller
+ ├── dto
+ ├── entity
+ ├── enums
+ ├── exception
+ ├── handler
+ ├── jwt
+ ├── repository
+ ├── service
+ ├── starter
+ └── util     
+ 
+
+# Veritabanı Yapısı
+
+Projede Tablolar .
+
+- User
+- RefreshToken
+- Customer
+- Dealer
+- DealerCar
+- Car
+- SoldCar
+- Account
+- Address
+
+# Kimlik Doğrulama
+
+Projede Spring Security ve JWT Authentication kullanılmaktadır.
+
+Kimlik doğrulama süreci aşağıdaki şekilde çalışmaktadır.
+
+1. Kullanıcı giriş yapar.
+2. Access Token oluşturulur.
+3. Refresh Token oluşturulur.
+4. Korunan endpointlere Access Token ile erişilir.
+5. Token süresi dolduğunda Refresh Token kullanılarak yeni Access Token alınır.
