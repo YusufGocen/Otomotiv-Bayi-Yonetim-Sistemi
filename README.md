@@ -83,7 +83,7 @@ Kimlik doğrulama süreci aşağıdaki şekilde çalışmaktadır.
 | HTTP Metodu | Endpoint | Açıklama |
 |-------------|----------|----------|
 | **POST** | `/rest/api/customer/save` | Yeni müşteri kaydı oluşturur. |
-| **POST** | `/rest/api/gallerist/save` | Yeni bayi (gallerist) kaydı oluşturur. |
+| **POST** | `/rest/api/gallerist/save` | Yeni bayi kaydı oluşturur. |
 | **POST** | `/rest/api/car/save` | Yeni araç kaydı oluşturur. |
 | **POST** | `/rest/api/gallerist-car/save` | Bir bayiye araç tanımlar. |
 | **POST** | `/rest/api/saled-car/save` | Araç satış işlemini gerçekleştirir. |
